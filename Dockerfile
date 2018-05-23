@@ -1,3 +1,3 @@
 FROM arm32v6/alpine
 
-CMD ["echo","This is the last will and testament of smxcore"]
+CMD ["sh", "-c", "echo \"smxcore docker container started\";exit 0"]
