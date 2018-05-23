@@ -1,3 +1,3 @@
 FROM arm32v6/alpine
 
-CMD ["tail","-f","/dev/null"]
+CMD ["/bin/sh","-c","tail -f /dev/null"]
